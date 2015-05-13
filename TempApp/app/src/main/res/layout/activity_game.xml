@@ -98,4 +98,31 @@
         android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/div"
         android:layout_alignEnd="@+id/div" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/server_status"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/server_ip"
+        android:layout_below="@+id/server_status"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/mult"
+        android:layout_toStartOf="@+id/mult" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/connect_phones"
+        android:layout_below="@+id/server_ip"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
